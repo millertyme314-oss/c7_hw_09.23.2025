@@ -1,0 +1,48 @@
+Today is 9-16-25
+
+class 7: Week 2 Lab
+
+task == Create a billing budget, Review EC2 instance connect & Create alternate EC2 template
+
+Create Budget:
+1. Search for "budget" in Console Home page & select corresponding option
+2. Select "Create budget" option
+3. Proceed to Setup budget, select a template, name your budget, enter a budgeted amount & specify email recipients (MANDATORY for alerts!!)
+4. Create Budget!!
+
+EC2 instance connect:
+1. Search for "EC2" in Console Home page & select corresponding option
+2. Create a SG FIRST!! (DO NOT USE DEFAULT!!!)
+3. Create an instance via EC2 script template (Theo's Github)
+4. Copy & paste script to user data section of instance build
+5. Launch instance (hopefully it works!)
+6. After confirmation, return to instance summary page and select "connect"
+7. On connect page, select "Connect using a Public IP" for Connection type
+8. Click on "Connect" (orange button)
+9. To send a command to EC2 instance (connected instance), type in ping 8.8.8.8
+
+Create alternate instance:
+1. In EC2 menu, click on instances
+2. Check the box next to desired instance and click on "actions" on right hand side of screen. From this scroll down menu, choose "image and templates", then select "create instance from template" 
+3. Notice that Key pair, security group and EC2 script are filled in (launch from template)
+4. Launch template and pray for green banner!
+5. With success, scroll down and click on "view launch templates"
+6. Launched template(s) should populate
+7. Check box next to template, click on Actions and select "launch instance from template"
+8. Closely review details and verify consistency, then select "launch instance"
+9. On instance page, copy the public DNS and open a new tab on browser
+10. In address bar, type "http://" and paste DNS
+11. The same web server should populate
+
+EC2 script template == https://github.com/MookieWAF/bmc4/blob/main/ec2scrpit
+
+notes:
+- Inbound rules = "Ingress traffic" 
+- Outbound rules = "Egress traffic"
+- SSH allows us to remotely connect to EC2 instance
+- A tag is a label that you assign to an AWS resource (extra info to help with identification & billing)
+- Key pair is not necessary for EC2 instance connect
+- Check Network settings and paste script into advanced details
+- Type type in ping 8.8.8.8 (continuous) or type in ping -c 4 8.8.8.8 (send only 4 packets) [Google's DNS IP]
+- Ctrl + C to stop ping
+- Save the files with .md at the end rather than .txt (Convert to a readme file)

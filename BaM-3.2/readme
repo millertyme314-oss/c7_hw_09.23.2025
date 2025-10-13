@@ -1,27 +1,2 @@
-GitHub merge map
 Create a walkthrough of how to complete a git merge request, complete with screenshots of the successful merge request and the updated content
-- Create a branch in GitHub desktop
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\create branch GH-desk.png")
 
-- Create file in VSC & view on GitHub desktop
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\pull file-initial-VSC.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\create pull file-GH desk.png")
-
-- Modify file in VSC, cofirm branch as "current" and commit onto branch
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\branch-current.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\pull file-change VSC.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\modified file-branch too.png")
-
-- Instead of merging branch into main in GitHub desktop, publish branch to GitHub.com
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\publish branch.png")
-
-- On GitHub.com, Create a pull request and approve (confirm Merge)
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\GH-pull request received.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\Generate request.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\pull file-final-PR.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\no conflicts-PR-merge.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\confirm merge.png")
-
-- Merge complete and approved on GitHub.com...see results!
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\merge complete-1.png")
-![]("C:\Users\ZeekMill386\Documents\AWS-Zion\TheoWAF\class7\AWS\Notes\merge complete-2-results.png")
